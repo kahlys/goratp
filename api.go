@@ -7,7 +7,7 @@ import (
 	"time"
 )
 
-const defaultEndpoint = "https://api-ratp.pierre-grimaud.fr/v3"
+const defaultEndpoint = "https://api-ratp.pierre-grimaud.fr/v4"
 
 // Schedule for a station on a line according to the destination.
 type Schedule map[string][]string
